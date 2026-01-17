@@ -8,12 +8,14 @@ API ini digunakan sebagai backend untuk sistem frontend CRUD Employee.
 *******************
 🔁 Endpoint API
 *******************
-Method -> Endpoint           -> Keterangan
-GET    ->  /api/employee     -> Ambil semua data 
-GET    -> /api/employee/{id} -> Ambil data by ID 
-POST   -> /api/employee      -> Tambah data      
-PUT    -> /api/employee/{id} -> Update data      
-DELETE -> /api/employee/{id} -> Hapus data       
+
+| Method | Endpoint | Keterangan |
+| :---         |     :---:      |          ---: |
+| GET   | /api/employee     | Ambil semua data    |
+| GET     | /api/employee/{id}       | Ambil data by ID      |
+| POST     | /api/employee       | Tambah data      |
+| PUT     | /api/employee/{id}       | Update data      |
+| DELETE     | /api/employee/{id}       | Hapus data      |
 
 **************************
 Penjelasan REST API
